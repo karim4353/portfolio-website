@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Karim's personal portfolio website",
+  "scripts": {
+    "start": "serve src",
+    "lint": "eslint assets/js",
+    "format": "prettier --write .",
+    "deploy": "gh-pages -d src"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^2.0.0",
+    "serve": "^14.0.0",
+    "gh-pages": "^6.0.0"
+  },
+  "author": "Karim A.",
+  "license": "MIT"
+}
